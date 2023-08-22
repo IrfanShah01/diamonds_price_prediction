@@ -1,0 +1,13 @@
+prefix=/Users/user/Python VS code/Projects/House Price Prediction/venv
+exec_prefix=/Users/user/Python VS code/Projects/House Price Prediction/venv
+libdir=/Users/user/Python VS code/Projects/House Price Prediction/venv/lib
+sharedlibdir=/Users/user/Python VS code/Projects/House Price Prediction/venv/lib
+includedir=/Users/user/Python VS code/Projects/House Price Prediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
